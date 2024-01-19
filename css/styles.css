@@ -3,7 +3,8 @@ ul {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2E2F42;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 a {
   text-decoration: none;
@@ -87,7 +88,7 @@ a {
       clip: rect(0 0 0 0);
       overflow: hidden;
     }
-}
+
 
 .feateres-list {}
 
