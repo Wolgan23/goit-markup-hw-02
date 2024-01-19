@@ -3,6 +3,7 @@ ul {
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: #2E2F42;
 }
 a {
   text-decoration: none;
@@ -15,11 +16,33 @@ a {
     line-height: 1.16; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
+
 .logo-blu {
   color: var(--IRIS, #4D5AE5);
 }
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+  color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5px;/* 150% */
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover {
+  color: var(--OCEAN, #404BBF);
+}
+
+.header-menu-link:active {
+  color: var(--OCEAN, #404BBF);
+}
+
+
+
 .hero {
 
 }
@@ -42,6 +65,7 @@ a {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .header-logo {}
@@ -50,6 +74,20 @@ a {
 
 
 .feateres {}
+.feateres-title {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+  
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+    }
+}
 
 .feateres-list {}
 
