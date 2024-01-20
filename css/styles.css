@@ -11,7 +11,7 @@ a {
 
 /* Heder */
 .header-logo {
-  color: var(--IRIS, #4D5AE5);
+  color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -21,7 +21,7 @@ a {
 }
 
 .logo-blu {
-  color:var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   
 }
 
@@ -34,11 +34,11 @@ a {
 }
 
 .header-menu-link:hover {
-  color: var(--OCEAN, #404BBF);
+  color: #404BBF;
 }
 
 .header-menu-link:focus {
-  color: var(--OCEAN, #404BBF);
+  color: #404BBF;
  
 }
  .header-address {
@@ -53,7 +53,7 @@ a {
 }
 
 .hero-title {
-  color: var(--WHITE, #FFF);
+  color: #FFF;
     font-size: 56px;
     text-align: center;
     font-weight: 700;
@@ -62,7 +62,7 @@ a {
 }
 
 .hero-btn {
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -96,14 +96,14 @@ a {
     }
 
 .feateres-item-text {
-  color: var(--SLATE, #434455);
+  color: #434455;
     font-size: 16px;
     line-height: 1.5;/* 150% */
     letter-spacing: 0.02em;
 }
 
 .feateres-subtitle {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;    /* 120% */
@@ -118,7 +118,7 @@ a {
 }
 
 .team-title {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #2E2F42;
     font-size: 36px;
     text-align: center;
     font-weight: 700;
@@ -128,7 +128,7 @@ a {
 }
 
 .team-item-name {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;/* 120% */
@@ -145,7 +145,7 @@ a {
 /* Portfolio 4s sector*/
  
 .portfolio-title {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #2E2F42;
     font-size: 36px;
     text-align: center;
     font-weight: 700;
@@ -155,7 +155,7 @@ a {
 }
 
 .portfolio-item-name {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;/* 120% */
@@ -163,7 +163,7 @@ a {
 }
 
 .portfolio-item-subtext {
-  color: var(--SLATE, #434455);
+  color: #434455;
     font-size: 16px;
     line-height: 1.5;/* 150% */
     letter-spacing: 0.02em;
@@ -175,7 +175,7 @@ a {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: var(--IRIS, #4D5AE5);
+  color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
