@@ -48,6 +48,16 @@ a {
  } 
  .header-menu-link-address {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+ }
+ .header-menu-link-address:hover {
+  color: #404bbf;
+
+ }
+ .header-menu-link-address:focus {
+  color: #404bbf
  }
 
 /* Hero 1st sector */
