@@ -8,28 +8,29 @@ body {
 a {
   text-decoration: none;
 }
+
+/* Heder */
 .header-logo {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 1.16; 
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-blu {
-  color: var(--IRIS, #4D5AE5);
+  color:var(--NAVY-BLUE, #2e2f42);
+  
 }
-.header-menu-list {}
-
-.header-menu-item {}
 
 .header-menu-link {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #434455;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5px;/* 150% */
+    line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     font-style: normal;
 }
@@ -38,14 +39,18 @@ a {
   color: var(--OCEAN, #404BBF);
 }
 
-.header-menu-link:active {
+.header-menu-link:focus {
   color: var(--OCEAN, #404BBF);
+ 
 }
+ .header-address {
+  font-style: normal;
 
+ } 
 
-
+/* Hero 1st sector */
 .hero {
-
+  background-color: #2e2f42; 
 }
 
 .hero-title {
@@ -53,27 +58,30 @@ a {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07;
-    /* 107.143% */
+    line-height: 1.07;/* 107.143% */
     letter-spacing: 0.02em;
 }
 
 .hero-btn {
     color: var(--WHITE, #FFF);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
-    /* 150% */
+    line-height: 1.5;/* 150% */
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: #4D5AE5;
+    
 }
+.hero-btn:hover {
+  background-color: #404BBF;
 
-.header-logo {}
+}
+.hero-btn:focus {
+  background-color: #404BBF;
+}
+/* Feateres 2nd sector*/
 
-
-
-.feateres {}
 .feateres-title {
       position: absolute;
       width: 1px;
@@ -87,11 +95,6 @@ a {
       clip: rect(0 0 0 0);
       overflow: hidden;
     }
-
-
-.feateres-list {}
-
-.feateres-item {}
 
 .feateres-item-text {
   color: var(--SLATE, #434455);
@@ -108,8 +111,13 @@ a {
     line-height: 1.2;    /* 120% */
     letter-spacing: 0.02em;
 }
-
-.team {}
+/* Team 3d cector*/
+.team {
+  background-color: #F4F4FD;
+}
+.team-list {
+  background-color: #FFFFFF
+}
 
 .team-title {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -120,10 +128,6 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-
-.team-list {}
-
-.team-item {}
 
 .team-item-name {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -143,10 +147,8 @@ a {
     letter-spacing: 0.02em;
 }
 
-
+/* Portfolio 4s sector*/
  
-.portfolio {}
-
 .portfolio-title {
   color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -156,10 +158,6 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-
-.portfolio-list {}
-
-.portfolio-item {}
 
 .portfolio-item-name {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -175,4 +173,29 @@ a {
     font-weight: 400;
     line-height: 1.5;/* 150% */
     letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-footer-blu {
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
 }
