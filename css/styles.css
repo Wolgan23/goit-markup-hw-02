@@ -12,7 +12,7 @@ a {
 /* Heder */
 .header-logo {
   color: var(--IRIS, #4D5AE5);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -27,7 +27,7 @@ a {
 }
 
 .header-menu-link {
-  color:#2e2f42;
+  color:#434455;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% */
@@ -182,7 +182,7 @@ a {
 }
 .footer-logo {
   color: var(--IRIS, #4D5AE5);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
